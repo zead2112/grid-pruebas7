@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG-20240402-WA0033.jpg" type="image/x-icon">
+
+    <title>Casas en Venta</title>
+</head>
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <div class="contenedor">
+    <div id="linea">
+
+    
+    <nav>
+        <img id="logo" src="IMG-20240402-WA0033.jpg" alt="x">
+        <h1> <i class="fas fa-warehouse"> Casas en Venta</i></h1>
+    </nav>
+   
+</div>
+    <figure >
+       <a href="casabonita1.html"> <img  id= "Habitacion" src="66bcfe2b-e003-4c61-bdd3-6641dcec5f21.jpeg" alt="Habitacion Casa Bonita"></a>
+       
+    
+        <figcaption id="Casa1">
+            <i class="fas fa-door-open">  <a href="casabonita1.html">     Casa Bonita 1  </a></i>
+        </figcaption>
+    </figure>
+    <!-- <figure>
+        <img id="Bungalo" src="7d9fba2b-569c-48ad-b185-8cc67af02e8c.jpg" alt="Casa Bonita / Bungalo">
+        <figcaption id="Casa2">
+         Casa Bonita / Bungalo
+        </figcaption>--> 
+    </figure>
+    <figure>
+        <a href="Casapanorama.html" id="Panorama" alt="Casa Panorama">  <img id="Panorama" src="CasaPanorama.jpg" alt="CasaPanorama"></a>
+        <figcaption id="Casa3"> <i class="fas fa-door-open"> <a href="Casapanorama.html"  > Casa Panorama </a></i></figcaption>
+      
+
+    </figure>
+    <figure>
+        <a href="casabonita2.html" id="Bonita2" alt="Casa Bonita 2"> <img id="Bonita2" src="CasaBonita2.jpg" alt="CasaBonita2"></a>
+        <figcaption id="Casa4"> <i class="fas fa-door-open"> <a href="casabonita2.html" >Casa Bonita 2 </a></i> </figcaption>
+      
+    </figure>
+<footer>
+    <p> <i> <b> © copyright 2024 DAEZ Coco Construccion </b></i></p>
+</footer>
+</div>
+    
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+#logo{
+    width: 5%;
+    
+}
+img:hover{
+
+        cursor: pointer;
+       }
+       .contenedor{
+    width: 90%;
+    max-width: 1500px;
+   
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1, 1fr)
+}
+body{
+            background-color: aqua;
+           
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 850px;
+            
+        }
+
+        #linea{
+        width: 100%;
+        background-color: black;
+        
+    }
+
+    h1{
+            color: white;
+            
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 7vw;
+            margin-top: -2%;
+            margin-left: 7%;
+        }
+        #Casa1{
+            font-size: 5vw;
+            margin-left: 15%
+   }
+   #Habitacion{
+       
+        border: 3px gray solid;
+        border-radius: 20px;        
+    
+
+     }
+     #Panorama{
+   
+        border: 3px gray solid;
+        border-radius: 20px;
+     
+ }
+ #Casa3{
+    font-size: 5vw;
+    margin-left: 15%
+}
+#Bonita2{
+    border: 3px gray solid;
+        border-radius: 20px;  
+}
+#Casa4{
+    font-size: 5vw;
+    margin-left: 15%
+}
+/*#Casa1{
+    margin-top: 410px;
+    font-size: 20px;
+    color: black;
+    position: fixed;
+    margin-left: 500px;
+    font-weight: bold;
+    top: -5%;
+    left: 38%
+}
+#Casa2{
+    margin-top: 440px;
+    font-size: 20px;
+    color: black;
+    position: fixed;
+    margin-left: 1040px;
+    font-weight: bold;
+    top: -5%;
+    left: 28%
+}
+#Casa3{
+    margin-top: 810px;
+    font-size: 20px;
+    color: black;
+    position: fixed;
+    margin-left: 430px;
+    font-weight: bold;
+    top: -19%;
+    left: 7%
+}
+#Casa4{
+    margin-top: 810px;
+    font-size: 20px;
+    color: black;
+    position: fixed;
+    margin-left: 1070px;
+    font-weight: bold;
+    top: -19%;
+    left: 28%
+}
+     #Habitacion{
+        width: 15%;
+        height: 250px;
+        position: fixed;
+        margin-top: 120px;
+        margin-left: 500px;
+        border: 3px gray solid;
+        border-radius: 20px;        
+        left: 25%
+
+     }
+ #Bungalo{
+    width: 15%;
+        height: 250px;
+        position: fixed;
+        margin-top: 120px;
+        margin-left: 1550px;
+        border: 3px gray solid;
+        border-radius: 20px;
+        left: 20%
+        
+ }
+ #Panorama{
+    width: 20%;
+        height: 320px;
+        position: fixed;
+        margin-top: 480px;
+        margin-left: 300px;
+        border: 3px gray solid;
+        border-radius: 20px;
+        top: -15%
+        
+ }
+ #Bonita2{
+    width: 20%;
+        height: 320px;
+        position: fixed;
+        margin-top: 480px;
+        margin-left: 950px;
+        border: 3px gray solid;
+        border-radius: 20px;
+        left: 20%;
+        top: -15%
+        
+
+ }
+        
+      
+        h1{
+            color: white;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            padding: 30px;
+            margin-left: 120px;
+            position: fixed;
+            left: 5%
+        }
+    #contacto{
+        color: white;
+        position: fixed;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 60px;
+        left: 500px
+
+       } 
+#copy{
+        margin-top: 900px;
+    margin-left: 30px;
+position: fixed;
+color: black;
+       }
+
+       #copy2{
+        margin-top: 100px;
+        position: fixed;
+        top: -25%;
+        color: black;
+       }
+      
+       
+
+   */
+     </style>
+</body>
+</html>
